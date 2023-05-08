@@ -170,7 +170,7 @@ Format: variableName = value
 
 aLqjjhrltCC = 4001
 
-UbmXsyJAbCA = 195.178.120.137
+UbmXsyJAbCA = 195.178.120[.]137
 
 ttQueqpBgd = | Edit 3LOSH RAT
 
@@ -308,7 +308,7 @@ Mutex = `AsyncMutex_6SI8OkPnk`
 
 In TCPView, Regsvcs.exe creates an outbound connection to the IP and port found via the AES decryption earlier.
 ```
-195.178.120.137:4001
+195.178.120[.]137:4001
 ```
 
 ![TCPView of Regsvcs.exe](images/regsvcs-ip.png)
@@ -320,7 +320,7 @@ In TCPView, Regsvcs.exe creates an outbound connection to the IP and port found 
 In conclusion, this sample is a powershell script which will drop a persistent remote access trojan onto the victim PC which will extract information and send it to a C2 server. It can also receive commands from the C2 server.
 
 ### 6.1 Inicators of Compromise
-1. Outbound connection to `195.178.120.137:4001` from `Regsvcs.exe`
+1. Outbound connection to `195.178.120[.]137:4001` from `Regsvcs.exe`
 2. `C:\ProgramFiles\PDF` folder which contains batch, powershell and visual basic scripts
 3. Scheduled Task to run `PDF.vbs` every minute
 
