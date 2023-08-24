@@ -1,2 +1,3 @@
-# Random-Malware-Analysis
- Repo to hold malware analysis i'm working on
+# Cybersec Writeups
+
+Repo to hold cybersec related stuff that I'm learning
