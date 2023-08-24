@@ -66,5 +66,5 @@ This might just be the password, so I'll test it in the program again.
 
 And it appears to be the password!
 
-Turns out the password is simply loaded as raw hex values before being compared against the user input. 
+Turns out the password is loaded from an address based on the loaded hex values.
 
